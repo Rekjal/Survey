@@ -4,7 +4,7 @@ $(document).ready(function() {
     const name = $("#name").val();
     alert("Name you entered is " + name);
     const foods = $("#foods").val();
-    alert("Food you choose was " + foods);
+    alert("Food you choose was " + foods); 
 
   });
 
