@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang=r"en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Survey</title>  
-  <link href="css/bootstrap.css"  rel="stylesheet">
+  <title>Survey</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/scripts.js"></script>  
+  <script src="js/scripts.js"></script>
 </head>
-<body>
-<div class="container">
-  <h1>Survey</h1>
-  <div>
-    <form id="form1">
-      <div class="form-group">
-        <label for="name">Enter your Name</label>
-        <input id="name" class="form-control" type="text">        
-      </div>
-      <button type="submit" class="btn btn-success">HitEnter</button>
 
-    </form>
+<body>
+  <div class="container">
+    <h1>Survey</h1>
+    <div>
+      <form id="form1">
+        <div class="form-group">
+          <label for="name">Enter your Name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <select class="form-control" id="foods"> 
+          <option>Hamburger</option>
+          <option>Steak</option>
+          <option>Pizza</option>
+        </select>
+          <button type="submit" class="btn btn-success">HitEnter</button>
+      </form>
+    </div>
+    
   </div>
-</div>
-  
+
 </body>
+
 </html>
